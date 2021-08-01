@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background: url("images/backdrop.jpg"),#2c344b;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    font-family: 'Chivo', sans-serif;
+}
+.allcontent{
+    padding-left: 0%;
+}
+.content{
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 0;
+}
+.title{
+    color: #2b6458;
+    font-size: 35px;
+    margin-bottom:0.5rem;
+}
+.request{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    border: none;
+    background: #2c344b;
+    margin-bottom: 10px;
+    height: 4rem;
+    width: 20rem;
+    border-radius:20rem;
+}
+.btn{
+    height: 4rem;
+    width: 20rem;
+    border-radius:20rem;
+    color:white;
+    background: #54e6af;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
